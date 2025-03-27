@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <section class="container">
+        <h3 class="form-title">Register Here! (J-Query)</h3>
+      <form class="form-container">
+        <!-- fullname -->
+        <div class="inner-form-container">
+          <label for="fullname">Fullname</label>
+          <input placeholder="Enter your fullname" type="text" id="fullname" />
+          <span class="fullname-error"></span>
+        </div>
+        <!--  email-->
+        <div class="inner-form-container">
+          <label for="email">Email</label>
+          <input placeholder="Enter your email" type="email" id="email" />
+          <span class="email-error"></span>
+
+        </div>
+        <!-- age -->
+        <div class="inner-form-container">
+          <label for="age">Age</label>
+          <input placeholder="Enter your age" type="number" id="age" name="age" />
+          <span class="age-error"></span>
+
+
+        </div>
+        <!-- Fee -->
+        <div class="inner-form-container">
+          <label for="fee">Fee</label>
+          <input placeholder="Enter your fee in rupees" type="number" id="fee" />
+          <span class="fee-error"></span>
+        
+        </div>
+        <!-- submit button -->
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </section>
+  </body>
+</html>
