@@ -1,0 +1,71 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:screen;
+}
+
+.form-title{
+    color: rgb(155, 137, 23);
+    margin-bottom: 20px;
+    font-size:xx-large;
+}
+
+.inner-form-container{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+
+}
+
+.form-container{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: 2px 2px 4px black;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.inner-form-container>span{
+    color:red;
+    font-size:smaller;
+}
+.inner-form-container>label{
+    color: rgb(155, 137, 23);
+    font-weight:500;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+
+.inner-form-container>input{
+    padding:8px;
+    outline: none;
+    border:  2px solid rgb(155, 137, 23);
+    border-radius:0.5rem;
+
+}
+
+.btn{
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    padding:8px;
+    outline: none;
+    border:none;
+    border-radius:0.5rem;
+    background:  rgb(155, 137, 23);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
